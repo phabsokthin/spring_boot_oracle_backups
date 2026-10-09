@@ -19,7 +19,7 @@ import java.util.stream.Stream;
 @Service
 public class OracleBackupService {
 
-        private static final int MAX_BACKUPS = 5;
+        private static final int MAX_BACKUPS = 10;
 
         private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss");
 

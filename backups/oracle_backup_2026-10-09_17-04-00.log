@@ -1,11 +1,11 @@
 ;;; 
-Export: Release 23.26.2.0.0 - Production on Fri Oct 9 14:19:00 2026
+Export: Release 23.26.2.0.0 - Production on Fri Oct 9 17:04:00 2026
 Version 23.26.2.0.0
 
 Copyright (c) 1982, 2026, Oracle and/or its affiliates.  All rights reserved.
 ;;; 
 Connected to: Oracle AI Database 26ai Free Release 23.26.3.0.0 - Develop, Learn, and Run for Free
-Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  system/********@//localhost:1522/FREEPDB1 SCHEMAS=SYSTEM DIRECTORY=DATA_PUMP_DIR DUMPFILE=oracle_backup_2026-10-09_14-19-00.dmp LOGFILE=oracle_backup_2026-10-09_14-19-00.log REUSE_DUMPFILES=NO 
+Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  system/********@//localhost:1522/FREEPDB1 SCHEMAS=SYSTEM DIRECTORY=DATA_PUMP_DIR DUMPFILE=oracle_backup_2026-10-09_17-04-00.dmp LOGFILE=oracle_backup_2026-10-09_17-04-00.log REUSE_DUMPFILES=NO 
 Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
 Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
 Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
@@ -28,11 +28,11 @@ Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
 . . exported "SYSTEM"."ACCOUNT_AUDIT"                      7.6 KB       4 rows
 . . exported "SYSTEM"."ACCOUNTS"                           6.1 KB       4 rows
 . . exported "SYSTEM"."DEPARTMENTS"                        5.6 KB       3 rows
-. . exported "SYSTEM"."CATEGORY"                           6.6 KB       4 rows
+. . exported "SYSTEM"."CATEGORY"                            11 KB      86 rows
 . . exported "SYSTEM"."INVOICES"                             0 KB       0 rows
 . . exported "SYSTEM"."PRODUCT"                              7 KB       2 rows
 Master table "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
 ******************************************************************************
 Dump file set for SYSTEM.SYS_EXPORT_SCHEMA_01 is:
-  /opt/oracle/admin/FREE/dpdump/5621983B6DFB0909E0630B00580A528D/oracle_backup_2026-10-09_14-19-00.dmp
-Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at Fri Oct 9 07:19:31 2026 elapsed 0 00:00:25
+  /opt/oracle/admin/FREE/dpdump/5621983B6DFB0909E0630B00580A528D/oracle_backup_2026-10-09_17-04-00.dmp
+Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at Fri Oct 9 10:04:15 2026 elapsed 0 00:00:09
